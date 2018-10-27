@@ -207,5 +207,38 @@ footer a {
 footer a.socLink {
     font-size: 21px;
 }
-
-
+.breadcrumbs a {
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #999999;
+}
+.newsTitle h1 {
+    font-size: 25px;
+    line-height: 22px;
+    color: #333333;
+}
+.newsTitle h2 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+.newsTitle span {
+    font-size: 12px;
+    line-height: 22px;
+    color: #aaaaaa;
+}
+.news .img {
+    width: 980px;
+    height: 210px;
+}
+.news p {
+    font-size: 13px;
+    line-height: 22px;
+    color: #333333;
+}
+.news a {
+    font-size: 13px;
+    line-height: 22px;
+    color: #0069b4;
+}
