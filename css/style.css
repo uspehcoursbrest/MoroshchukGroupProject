@@ -22,6 +22,11 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+.clear::after {
+   content: "";
+    display: block;
+    clear: both;
+}
 header .login {
     font-size: 13px;
     line-height: 19px;
@@ -31,6 +36,10 @@ header .menu a {
     font-size: 13px;
     line-height: 28px;
     color: #333333;
+}
+header .menu li {
+    display: inline-block;
+    margin-right: 18px;
 }
 header .phone {
     font-size: 20px;
@@ -72,11 +81,20 @@ header .login [class*="icon"] {
 header .phone [class*="icon"] {
     font-size: 20px;
 }
+.advantages {
+    width: calc(100% - 320px);
+    float: left;
+}
+.advantages .item {
+    width: 25%;
+    float: left;
+}
 .advantages .item span {
     font-size: 14px;
     font-weight: bold;
     line-height: 17px;
     color: #333333;
+    display: block;
 }
 .advantages .item p {
     font-size: 12px;
@@ -85,6 +103,8 @@ header .phone [class*="icon"] {
 }
 .subscribe{
     background-color: #62b749;
+    width: 320px;
+    float: left;
 }
 .subscribe label {
     font-size: 16px;
@@ -112,6 +132,10 @@ header .phone [class*="icon"] {
     font-size: 13px;
     line-height: 16px;
     border-bottom: 1px dashed #666666;
+    display: inline-block;
+}
+.filter li + li {
+    margin-left: 20px;
 }
 .filter li a {
     text-decoration: none;
@@ -140,13 +164,17 @@ header .phone [class*="icon"] {
     font-weight: 600;
     line-height: 30px;
     color: #333333;
+    display: inline-block;
+    vertical-align: top;
 }
 .card .price .old {
     font-size: 14px;
     font-weight: normal;
-    line-height: 30px;
+    line-height: 25px;
     text-decoration: line-through;
     color: #666666;
+    display: inline-block;
+    vertical-align: top;
 }
 .card button {
     font-size: 14px;
@@ -156,6 +184,8 @@ header .phone [class*="icon"] {
     background-color: #ff7200;
     border: none;
     width: 100px;
+    display: block;
+    float: right;
 }
 .widgets h1 {
     font-size: 18px;
@@ -206,6 +236,23 @@ footer a {
 }
 footer a.socLink {
     font-size: 21px;
+}
+footer .footMenu {
+    width: 50%;
+    float: left;
+}
+.footMenu .col {
+    width: 50%;
+    float: left;
+}
+footer .contacts {
+    width: 25%;
+    float: left;
+}
+footer .copyright {
+    width: 25%;
+    float: left;
+    text-align: right;
 }
 .breadcrumbs a {
     font-size: 12px;
