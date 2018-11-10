@@ -605,3 +605,44 @@ footer .copyright {
 .radioBtn + label {
     cursor: pointer;
 }
+@media (max-width: 1199px) {
+    .container {
+        width: 980px;
+    }
+    .sale {
+        width: 295px;
+        height: 350px;
+    }
+    .slider {
+        width: 620px;
+        height: 350px;
+    }
+    .subscribe {
+        width: 300px;
+
+    }
+    .advantages {
+        width: calc(100% - 300px);
+    }
+    .widgets {
+        display: none;
+    }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card {
+        flex: 0 0 220px;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        width: 780px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+}
