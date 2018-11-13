@@ -153,9 +153,11 @@ header .basket {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 header a.basket:hover {
     color: #48aa6c;
 }
+
 header .basket span {
     color: #179547;
 }
@@ -281,9 +283,11 @@ header .phone [class*="icon"] {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 .filter li:hover {
     border-bottom: 1px dashed transparent;
 }
+
 .filter li + li {
     margin-left: 20px;
 }
@@ -456,7 +460,7 @@ header .phone [class*="icon"] {
     display: block;
     width: 0px;
     height: 0px;
-    border-top: 5px solid #333333;
+    border-top: 27px solid #333333;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     position: absolute;
@@ -605,44 +609,114 @@ footer .copyright {
 .radioBtn + label {
     cursor: pointer;
 }
+
 @media (max-width: 1199px) {
     .container {
         width: 980px;
     }
+
     .sale {
         width: 295px;
         height: 350px;
     }
+
     .slider {
         width: 620px;
         height: 350px;
     }
+
     .subscribe {
         width: 300px;
 
     }
+
     .advantages {
         width: calc(100% - 300px);
     }
+
     .widgets {
         display: none;
     }
+
     .cards {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
     .card {
         flex: 0 0 220px;
     }
 }
+
 @media (max-width: 991px) {
     .container {
         width: 780px;
     }
 }
+
 @media (max-width: 767px) {
     .container {
         width: 100%;
     }
+
+    .banner {
+        display: none;
+    }
+
+    .advantages {
+        display: none;
+    }
+    .subscribe {
+        display: none;
+    }
+
+    .filter {
+        display: none;
+    }
+
+    .selFilter {
+        display: block;
+        margin-bottom: 30px;
+        width: 100%;
+        height: 45px;
+        vertical-align: top;
+    }
+
+    .selFilter select {
+        height: 100%;
+        width: 130px;
+        border: 1px solid #c3c3c3;
+        display: block;
+        float: left;
+    }
+
+    .view {
+        display: block;
+        float: right;
+    }
+
+    .view span {
+        font-size: 40px;
+    }
+
+    .view span:last-child {
+        margin-left: 18px;
+    }
+
+    .cards {
+        width: 100%;
+        display: block;
+
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card .img {
+        width: 100%;
+
+    }
 }
+
