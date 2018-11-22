@@ -28,13 +28,13 @@ $(document).ready(function () {
 
         }
 
-    })
+    });
     btnUp.click(function () {
         $("body,html").animate({
             scrollTop:0
         }, 500);
         return false;
-    })
+    });
     $(".mainSlider").owlCarousel({
         dots: true,
         nav: false,
@@ -46,9 +46,9 @@ $(document).ready(function () {
     $("#tabs").tabs({
         active: 0
     });
+    $('select').selectric();
 
-
-})
+});
 
 
 

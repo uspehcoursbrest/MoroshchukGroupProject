@@ -457,6 +457,50 @@ header .phone [class="icon"]{
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
 }
+.info.ui-tabs {
+    padding: 0;
+}
+
+.info.ui-tabs .ui-tabs-nav {
+    padding: 0;
+}
+
+.info.ui-tabs .ui-tabs-nav li {
+    margin: 0;
+    padding: 0 ;
+}
+
+.info .tabs a {
+    display: block;
+    font-size: 14px;
+    color: #999;
+    text-decoration: none;
+    padding: 0 15px;
+    outline: none;
+    height: 45px;
+    line-height: 45px;
+}
+
+.info.ui-tabs .ui-tabs-nav li.ui-tabs-active{
+    margin: 0;
+    padding: 0;
+}
+
+.info.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: 0 15px;
+}
+
+.info.ui-tabs .ui-tabs-panel {
+    padding: 0;
+}
+
+.info .tabs li.ui-tabs-active a,
+.info .tabs li a:hover {
+    border: none;
+    background-color: #f2fff7;
+    color: #1c9847;
+    cursor: pointer;
+}
 footer{
     font-size: 13px;
     line-height: 22px;
@@ -1049,24 +1093,24 @@ footer a.socLink{
     padding-bottom: 18px;
 }
 
-.selectBL {
+.selectB1 {
     width: 290px;
 }
 
-.selectBL .selectric {
+.selectB1 .selectric {
     width: 100%;
     height: 28px;
     background-color: #ffffff;
     border: 1px solid #d6d6d6;
 }
 
-.selectBL .selectric .label {
+.selectB1 .selectric .label {
     font-size: 13px;
     line-height: 26px;
     color: #333333;
 }
 
-.selectBL .selectric .button {
+.selectB1 .selectric .button {
     position: absolute;
     right: 7px;
     top: 50%;
@@ -1078,14 +1122,29 @@ footer a.socLink{
     margin-top: -2px;
     background-color: transparent;
 }
+.selectB1 .selectric .button:after {
+    display: none;
+}
 
-
-
-.selectBL .selectric-items {
+.selectB1 .selectric-items {
+    border: 1px solid #d6d6d6;
+}
+.selectB1 .selectric-items li {
+    padding: 0;
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 26px;
+    color: #333333;
+    background-color: #fff;
+}
+.selectB1 .selectric-item li:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.selectB1 .selectric-items {
     border: 1px solid #d6d6d6;
 }
 
-.selectBL .selectric-items li {
+.selectB1 .selectric-items li {
     padding: 0;
     padding-left: 10px;
     font-size: 13px;
